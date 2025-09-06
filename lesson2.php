@@ -9,7 +9,7 @@
     <?php
     $capital = 67;
     print("variable capital is $capital<br>");
-    print("variable CaPiTal is $CaPiTal") //This one displays an error because variables are case sensitive in PHP
+    print("variable CaPiTal is $CaPiTal"); //This one displays an error because variables are case sensitive in PHP
     ?>
 </body>
 </html>
