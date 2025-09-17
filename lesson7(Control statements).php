@@ -20,4 +20,24 @@ if ($foo == 0){
     echo "The variable foo is equal to $foo";
 }
 
+echo "<br>";
+
+$d = date("D");
+if ($d == "Fri"){
+    echo "Have a nice weekend";
+} else{
+    echo "Have a nice day";
+}
+
+echo "<br>";
+
+$d = date("D");
+if ($d == "Fri"){
+    echo "Have a nice day";
+} elseif ($d == "Sun"){
+    echo "Have a nice Sunday";
+} else {
+    echo "Have a nice day";
+}
+
 ?>
